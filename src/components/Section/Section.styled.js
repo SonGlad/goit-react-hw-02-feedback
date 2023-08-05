@@ -7,7 +7,6 @@ export const SectionStyle = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin-top: 20px; */
         font-size: 40px;
     .title{
     }

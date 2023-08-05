@@ -8,4 +8,4 @@ export const Notification = ({message}) => {
 
 Notification.protoTypes = {
     message: PropTypes.string.isRequired,
-}
+};

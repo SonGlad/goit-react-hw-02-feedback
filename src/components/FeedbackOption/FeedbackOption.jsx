@@ -4,7 +4,6 @@ import {getRandomColor} from '../../utils/random-color/random-color';
 import { nanoid } from 'nanoid';
 
 
-
 export const ButtonContainer = ({changeOnClick, option}) => {
     return (
         <ButtonContainerStyle>
@@ -18,9 +17,10 @@ export const ButtonContainer = ({changeOnClick, option}) => {
             ))}
         </ButtonContainerStyle>
     )
-}
+};
+
 
 ButtonContainer.propTypes ={
     changeOnCklick: PropTypes.func,
     option: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,        
-}
+};

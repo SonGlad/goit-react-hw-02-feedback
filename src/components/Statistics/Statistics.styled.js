@@ -1,6 +1,8 @@
 import { styled } from "styled-components";
 
-export const StatisticContainerStyle = styled.div`
+export const StatisticContainerStyle = styled.ul`
+    width: 300px;
+    list-style: none;
     display: flex;
     gap: 20px;
     justify-content: center;
